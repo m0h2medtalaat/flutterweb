@@ -100,40 +100,6 @@ class _HomeScreenState extends State<HomeScreen> {
             },
           ),
           Align(
-            alignment: Alignment.centerRight,
-            child: Container(
-              height: 0.5.sh,
-              width: 0.3.sw,
-              child: Padding(
-                padding: EdgeInsets.only(
-                    top: 0.08.sh,
-                    right: 0.08.sw,
-                    bottom: 0.06.sh,
-                    left: 0.08.sw),
-                child: ListView(
-                  children: [
-                    Container(
-                      height: 100,
-                      width: 100,
-                      color: Colors.amber,
-                    ),
-                    Container(
-                      height: 100,
-                      width: 100,
-                      color: Colors.amber,
-                    ),
-                    Container(
-                      height: 100,
-                      width: 100,
-                      color: Colors.amber,
-                    )
-                  ],
-                  scrollDirection: Axis.horizontal,
-                ),
-              ),
-            ),
-          ),
-          Align(
             alignment: Alignment.center,
             child: position < 0.8.sh
                 ? Column(
